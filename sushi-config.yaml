@@ -1,0 +1,41 @@
+id: torchlab.fhir.demo
+canonical: http://torchlab.dev/fhir/demo
+name: TorchDemoIG
+title: TorchLab Demo IG
+description: >-
+  A demonstration FHIR Implementation Guide built with SUSHI to illustrate
+  profiling patterns for care-coordination patient summaries. Includes profiles
+  for patient demographics, vital signs, active problems, and allergy intolerances,
+  along with a custom contact-method extension and terminology.
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2026+
+releaseLabel: ci-build
+license: MIT
+
+publisher:
+  name: TorchLab
+  url: https://torchlab.dev
+  email: hello@torchlab.dev
+
+dependencies:
+  hl7.fhir.us.core: 6.1.0
+  hl7.fhir.uv.ips: 1.1.0
+
+pages:
+  index.md:
+    title: Home
+  profiles.md:
+    title: Profiles
+  usage.md:
+    title: Usage Guide
+
+parameters:
+  show-inherited-invariants: false
+
+menu:
+  Home: index.html
+  Profiles: profiles.html
+  Usage Guide: usage.html
+  Artifacts: artifacts.html

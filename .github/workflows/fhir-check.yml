@@ -1,0 +1,20 @@
+name: FHIR Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    name: Validate FHIR dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: TorchLab FHIR Check
+        uses: torchlab/fhir-check@v1
+        with:
+          fail-on-missing: true
+          fail-on-deprecated: false

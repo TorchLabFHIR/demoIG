@@ -1,0 +1,12 @@
+{
+  "name": "torchlab.fhir.demo",
+  "version": "0.1.0",
+  "description": "TorchLab Demo FHIR Implementation Guide",
+  "fhirVersions": ["4.0.1"],
+  "dependencies": {
+    "hl7.fhir.us.core": "6.1.0",
+    "hl7.fhir.uv.ips": "1.1.0"
+  },
+  "license": "MIT",
+  "author": "TorchLab <hello@torchlab.dev>"
+}
