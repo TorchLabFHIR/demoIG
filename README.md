@@ -1,6 +1,6 @@
 # TorchLab Demo IG
 
-[![FHIR Check](https://github.com/YOUR_ORG/YOUR_REPO/actions/workflows/fhir-check.yml/badge.svg)](https://github.com/YOUR_ORG/YOUR_REPO/actions/workflows/fhir-check.yml)
+[![FHIR Check](https://github.com/TorchLabFHIR/demoIG/actions/workflows/fhir-check.yml/badge.svg)](https://github.com/TorchLabFHIR/demoIG/actions/workflows/fhir-check.yml)
 [![TorchLab FHIR Check](https://img.shields.io/badge/TorchLab-FHIR%20Check-orange?style=flat&logo=github)](https://github.com/marketplace/actions/torchlab-fhir-check)
 ![FHIR R4](https://img.shields.io/badge/FHIR-R4-blue?style=flat)
 ![Status](https://img.shields.io/badge/status-draft-yellow?style=flat)
