@@ -4,7 +4,7 @@ This Implementation Guide is a demonstration project built with [SUSHI](https://
 to illustrate FHIR profiling patterns for care-coordination patient summaries.
 
 It is published as an example alongside the
-[`torchlab/fhir-check`](https://github.com/marketplace/actions/torchlab-fhir-check) GitHub Action,
+[`TorchLabFHIR/fhir-check`](https://github.com/TorchLabFHIR/fhir-check) GitHub Action,
 which validates FHIR IG dependency packages against the TorchLab registry on every commit.
 
 ---
@@ -30,4 +30,4 @@ The guide covers a minimal but realistic set of clinical data for a patient hand
 | `hl7.fhir.uv.ips` | 1.1.0 | International Patient Summary alignment |
 
 Dependencies are validated automatically on every commit using the
-[TorchLab FHIR Check](https://github.com/marketplace/actions/torchlab-fhir-check) GitHub Action.
+[TorchLab FHIR Check](https://github.com/TorchLabFHIR/fhir-check) GitHub Action.

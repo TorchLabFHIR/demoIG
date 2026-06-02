@@ -50,11 +50,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: torchlab/fhir-check@v1
+      - uses: TorchLabFHIR/fhir-check@v1
         with:
           fail-on-missing: true
           fail-on-deprecated: true
 ```
 
-See the [TorchLab FHIR Check](https://github.com/marketplace/actions/torchlab-fhir-check) action
+See the [TorchLab FHIR Check](https://github.com/TorchLabFHIR/fhir-check) action
 for the full list of inputs, outputs, and configuration options.

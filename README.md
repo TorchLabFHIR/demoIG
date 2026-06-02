@@ -9,7 +9,7 @@ A demonstration FHIR Implementation Guide built with [SUSHI](https://fshschool.o
 profiling patterns for care-coordination patient summaries.
 
 Published as a working example for the
-[`torchlab/fhir-check`](https://github.com/marketplace/actions/torchlab-fhir-check)
+[`TorchLabFHIR/fhir-check`](https://github.com/TorchLabFHIR/fhir-check)
 GitHub Action — which validates all IG dependency packages against the
 [TorchLab registry](https://torchlab.dev) on every commit.
 
@@ -60,7 +60,7 @@ Copy `.github/workflows/fhir-check.yml` to your own repository, or add this step
 to an existing workflow:
 
 ```yaml
-- uses: torchlab/fhir-check@v1
+- uses: TorchLabFHIR/fhir-check@v1
   with:
     fail-on-missing: true
     fail-on-deprecated: false
